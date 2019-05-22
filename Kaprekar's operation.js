@@ -2,7 +2,7 @@
 Kaprekar's operation
 ===================================
 This a simple but fascinating mathematical procedure that gives a beautiful and surprising result.
-There is a nice description on the problem [here](https://plus.maths.org/content/mysterious-number-6174) and [here](https://en.wikipedia.org/wiki/D._R._Kaprekar#Kaprekar_constant) 
+There is a nice description on the problem here https://plus.maths.org/content/mysterious-number-6174 
 The procedure is described below:
 
 1. First choose a four digit number where the digits are not all the same (that is not 1111, 2222,...), 
