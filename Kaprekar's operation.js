@@ -2,7 +2,7 @@
 Kaprekar's operation
 ===================================
 This a simple but fascinating mathematical procedure that gives a beautiful and surprising result.
-There is a nice description on the problem here https://plus.maths.org/content/mysterious-number-6174 
+There is a nice description of the problem here https://plus.maths.org/content/mysterious-number-6174 
 The procedure is described below:
 
 1. First choose a four digit number where the digits are not all the same (that is not 1111, 2222,...), 
@@ -13,7 +13,7 @@ The procedure is described below:
 4. The process always converges to 6,174 for any starting seed that meets the criteria in (1)
 5. It takes at most 7 iterations for the result to converge to 6,174
 
-Write a function called "kaprekarFourDigit()" that takes as it's arguement any four digit number that does not violate
+Write a function called "kaprekarFourDigit()" that takes as its arguement any four digit number that does not violate
 Condition 1 and returns the procedure given above as well as the number of iterations it took to converge to 6,174.
 
 */
@@ -54,7 +54,7 @@ function kaprekarFourDigit(num){
 
 			if(output === 6174){
 				//end function once it converges
-				console.log('\n') //leave space after iterations (Aesthetics)
+				console.log('\n') 
 				return 'RESULT: Converges to Kaprekar\'s  constant after '.concat(i, ' iterations');
 			} 
 
